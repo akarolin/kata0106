@@ -14,6 +14,11 @@
 		0B3D83321B0658CD000A1BE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B3D83311B0658CD000A1BE1 /* Images.xcassets */; };
 		0B3D83351B0658CD000A1BE1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B3D83331B0658CD000A1BE1 /* LaunchScreen.xib */; };
 		0B3D83411B0658CD000A1BE1 /* SupermarketPricingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3D83401B0658CD000A1BE1 /* SupermarketPricingTests.m */; };
+		0B3D834B1B07763C000A1BE1 /* CentsRounder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3D834A1B07763C000A1BE1 /* CentsRounder.m */; };
+		0B4D25381B09934500D7F09C /* Pricers.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4D25371B09934500D7F09C /* Pricers.m */; };
+		0B4D253E1B09B49900D7F09C /* anagrams.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4D253D1B09B49900D7F09C /* anagrams.m */; };
+		0B4D25531B09BDA400D7F09C /* AnagramsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4D25521B09BDA400D7F09C /* AnagramsTests.m */; };
+		0B4D25571B09CA1800D7F09C /* wordlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0B4D25561B09CA1800D7F09C /* wordlist.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,14 @@
 		0B3D833A1B0658CD000A1BE1 /* SupermarketPricingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SupermarketPricingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B3D833F1B0658CD000A1BE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B3D83401B0658CD000A1BE1 /* SupermarketPricingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SupermarketPricingTests.m; sourceTree = "<group>"; };
+		0B3D834A1B07763C000A1BE1 /* CentsRounder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CentsRounder.m; sourceTree = "<group>"; };
+		0B3D834C1B0776C6000A1BE1 /* CentsRounder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CentsRounder.h; sourceTree = "<group>"; };
+		0B4D25361B0992AA00D7F09C /* Pricers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pricers.h; sourceTree = "<group>"; };
+		0B4D25371B09934500D7F09C /* Pricers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pricers.m; sourceTree = "<group>"; };
+		0B4D253D1B09B49900D7F09C /* anagrams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = anagrams.m; sourceTree = "<group>"; };
+		0B4D25401B09B60900D7F09C /* anagrams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = anagrams.h; sourceTree = "<group>"; };
+		0B4D25521B09BDA400D7F09C /* AnagramsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnagramsTests.m; sourceTree = "<group>"; };
+		0B4D25561B09CA1800D7F09C /* wordlist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wordlist.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +94,8 @@
 		0B3D83231B0658CD000A1BE1 /* SupermarketPricing */ = {
 			isa = PBXGroup;
 			children = (
+				0B4D253A1B09B2CD00D7F09C /* Kata06 */,
+				0B4D25391B09B29500D7F09C /* Kata 01 */,
 				0B3D83281B0658CD000A1BE1 /* AppDelegate.h */,
 				0B3D83291B0658CD000A1BE1 /* AppDelegate.m */,
 				0B3D832B1B0658CD000A1BE1 /* ViewController.h */,
@@ -106,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				0B3D83401B0658CD000A1BE1 /* SupermarketPricingTests.m */,
+				0B4D25521B09BDA400D7F09C /* AnagramsTests.m */,
 				0B3D833E1B0658CD000A1BE1 /* Supporting Files */,
 			);
 			path = SupermarketPricingTests;
@@ -117,6 +133,27 @@
 				0B3D833F1B0658CD000A1BE1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B4D25391B09B29500D7F09C /* Kata 01 */ = {
+			isa = PBXGroup;
+			children = (
+				0B3D834C1B0776C6000A1BE1 /* CentsRounder.h */,
+				0B3D834A1B07763C000A1BE1 /* CentsRounder.m */,
+				0B4D25361B0992AA00D7F09C /* Pricers.h */,
+				0B4D25371B09934500D7F09C /* Pricers.m */,
+			);
+			name = "Kata 01";
+			sourceTree = "<group>";
+		};
+		0B4D253A1B09B2CD00D7F09C /* Kata06 */ = {
+			isa = PBXGroup;
+			children = (
+				0B4D25561B09CA1800D7F09C /* wordlist.txt */,
+				0B4D253D1B09B49900D7F09C /* anagrams.m */,
+				0B4D25401B09B60900D7F09C /* anagrams.h */,
+			);
+			name = Kata06;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +238,7 @@
 			files = (
 				0B3D83301B0658CD000A1BE1 /* Main.storyboard in Resources */,
 				0B3D83351B0658CD000A1BE1 /* LaunchScreen.xib in Resources */,
+				0B4D25571B09CA1800D7F09C /* wordlist.txt in Resources */,
 				0B3D83321B0658CD000A1BE1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,8 +258,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B3D832D1B0658CD000A1BE1 /* ViewController.m in Sources */,
+				0B4D25381B09934500D7F09C /* Pricers.m in Sources */,
+				0B3D834B1B07763C000A1BE1 /* CentsRounder.m in Sources */,
 				0B3D832A1B0658CD000A1BE1 /* AppDelegate.m in Sources */,
 				0B3D83271B0658CD000A1BE1 /* main.m in Sources */,
+				0B4D253E1B09B49900D7F09C /* anagrams.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B3D83411B0658CD000A1BE1 /* SupermarketPricingTests.m in Sources */,
+				0B4D25531B09BDA400D7F09C /* AnagramsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +458,7 @@
 				0B3D83461B0658CD000A1BE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B3D83471B0658CD000A1BE1 /* Build configuration list for PBXNativeTarget "SupermarketPricingTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +467,7 @@
 				0B3D83491B0658CD000A1BE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
